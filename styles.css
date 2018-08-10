@@ -1,0 +1,66 @@
+/* SITE-WIDE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One', cursive;
+  line-height: 1.5;
+}
+/* Text Styles */
+h1, table, iframe {
+  text-align: center;
+  padding: 7%;
+}
+h2 {
+  text-align: center;
+  padding: 7% 7% 0;
+  text-decoration: underline;
+}
+p {
+  text-align: center;
+  padding: 7%;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+/* Navigation */
+nav > ul {
+  display: flex;
+  flex: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+nav > ul > li {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  width: 60px;
+}
+#logo {
+  width: 50px;
+}
+
+/* SPLASH SECTION */
+#splash-wrapper {
+  background: url("images/coffee-green-leaves.jpg") top center no-repeat;
+  background-size: cover;
+  color: white;
+}
+#splash-wrapper h1, #splash-wrapper p {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* ABOUT SECTION */
+#about-wrapper {
+  /* Gradient background? */
+}
+#table-hours {
+  width: 100%;
+  text-align: center;
+}
